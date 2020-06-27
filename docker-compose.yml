@@ -117,7 +117,7 @@ services:
     image: stefanprodan/caddy
     container_name: caddy
     ports:
-      - "3000:3000"
+      - "3030:3000"                                 # Cambiado el puerto predeterminado de grafana a 3030
       - "9090:9090"
       - "9093:9093"
       - "9091:9091"
