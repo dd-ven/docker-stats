@@ -11,10 +11,10 @@ Una solución de monitoreo para Docker hosts y contenedores con [Prometheus](htt
 Clone este repositorio en su host Docker, cd en el directorio dockprom y ejecute compose:
 
 ````
-git clone https://github.com/stefanprodan/dockprom
+git clone https://github.com/dd-ven/docker-stats.git
 ````
 ````
-cd dockprom
+cd docker-stats
 ````
 ````
 docker-compose up -d
